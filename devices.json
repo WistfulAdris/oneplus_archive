@@ -1,31 +1,8 @@
 {
   "devices": {
-    "infiniti": ["PLK110", "CPH2749", "CPH2745", "CPH2747"],
-    "ktm": ["PLQ110"],
-    "erhai": ["OPD2413", "OPD2415"],
     "dodge": ["PJZ110", "CPH2649", "CPH2655", "CPH2653"],
-    "pagani": ["PKX110", "CPH2723"],
-    "giulia": ["PKG110", "CPH2691", "CPH2645"],
-    "waffle": ["PJD110", "CPH2573", "CPH2583", "CPH2581"],
-    "aston": ["PJE110", "CPH2585", "CPH2609"]
   },
   "definitions": {
-    "infiniti": {
-      "boot_partitions": [
-        "boot", "dtbo", "init_boot", "recovery", "vbmeta", "vbmeta_system", "vbmeta_vendor", "vendor_boot"
-      ],
-      "logical_partitions": [
-        "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
-      ]
-    },
-    "ktm": {
-      "boot_partitions": [
-        "boot", "dtbo", "init_boot", "recovery", "vbmeta", "vbmeta_system", "vbmeta_vendor", "vendor_boot"
-      ],
-      "logical_partitions": [
-        "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
-      ]
-    },
     "dodge": {
       "boot_partitions": [
         "boot", "init_boot", "vendor_boot", "recovery", "dtbo", "vbmeta", "vbmeta_system", "vbmeta_vendor"
@@ -33,46 +10,7 @@
       "logical_partitions": [
         "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
       ]
-    },
-    "pagani": {
-      "boot_partitions": [
-        "boot", "init_boot", "vendor_boot", "recovery", "dtbo", "vbmeta", "vbmeta_system", "vbmeta_vendor"
-      ],
-      "logical_partitions": [
-        "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
-      ]
-    },
-    "erhai": {
-      "boot_partitions": [
-        "boot", "init_boot", "vendor_boot", "recovery", "dtbo", "vbmeta", "vbmeta_system", "vbmeta_vendor"
-      ],
-      "logical_partitions": [
-        "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
-      ]
-    },
-    "giulia": {
-      "boot_partitions": [
-        "boot", "init_boot", "vendor_boot", "recovery", "dtbo", "vbmeta", "vbmeta_system", "vbmeta_vendor"
-      ],
-      "logical_partitions": [
-        "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
-      ]
-    },
-    "waffle": {
-      "boot_partitions": [
-        "boot", "init_boot", "vendor_boot", "recovery", "dtbo", "vbmeta", "vbmeta_system", "vbmeta_vendor"
-      ],
-      "logical_partitions": [
-        "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
-      ]
-    },
-    "aston": {
-      "boot_partitions": [
-        "boot", "dtbo", "init_boot", "vendor_boot", "vbmeta", "vbmeta_system", "vbmeta_vendor"
-      ],
-      "logical_partitions": [
-        "my_bigball", "my_carrier", "my_engineering", "my_heytap", "my_manifest", "my_product", "my_region", "my_stock", "odm", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm"
-      ]
+    }
     }
   }
 }
